@@ -1,8 +1,11 @@
 /* Your Code Here */
 
 function createEmployeeRecord(employeeDetails){
-return {firstName : employeeDetails[0], familyName : employeeDetails[1], title : employeeDetails[2],
-     payPerHour : employeeDetails[3], timeInEvents : [], timeOutEvents : [] }
+return {firstName : employeeDetails[0],
+    familyName : employeeDetails[1],
+    title : employeeDetails[2],
+    payPerHour : employeeDetails[3], timeInEvents : [], 
+    timeOutEvents : [] }
 }
 
 function createEmployeeRecords(arrayOfEmployeesArray){
